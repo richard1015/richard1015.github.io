@@ -2,7 +2,7 @@
  * @Description: In User Settings Edit
  * @Author: your name
  * @Date: 2019-08-14 15:16:14
- * @LastEditTime: 2019-08-14 15:35:13
+ * @LastEditTime: 2019-08-15 11:01:52
  * @LastEditors: Please set LastEditors
  -->
 <!DOCTYPE html>
@@ -11,7 +11,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <title>Babylon.js sample code</title>
+    <title>Babylon.js  canvas优化2 易车外饰观看3度旋转</title>
 
     <!-- Babylon.js -->
     <script src="js/pep.min.js"></script>
@@ -62,8 +62,8 @@
             light.intensity = 0.7;
 
             // Create material from image with alpha
-            var mat = new BABYLON.StandardMaterial("dog", scene);
-            mat.emissiveTexture = mat.diffuseTexture = new BABYLON.Texture("textures/plane.basis", scene);
+            // var mat = new BABYLON.StandardMaterial("dog", scene);
+            // mat.emissiveTexture = mat.diffuseTexture = new BABYLON.Texture("textures/plane.basis", scene);
 
             var weixin = BABYLON.SceneLoader.ImportMesh("", "./", "lamborghini-aventador.babylon", scene, function (newMeshes, particleSystems, skeletons) {
                 var one= new Array();
